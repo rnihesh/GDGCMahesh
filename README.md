@@ -28,13 +28,13 @@ Before running this project, ensure you have the following installed on your mac
 
 1. *Clone the repository:*
    bash
-   git clone https://github.com/yourusername/ecommerce-basic.git
+   git clone https://github.com/yourusername/GDGC.git
    
-2. *Navigate to the project directory:*
+3. *Navigate to the project directory:*
    bash
    cd ecommerce-basic
    
-3. *Install dependencies:*
+4. *Install dependencies:*
    bash
    npm install
    
