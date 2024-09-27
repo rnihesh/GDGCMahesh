@@ -135,7 +135,7 @@ const EcommercePlatform = () => {
                   ) : (
                     <div className="empty-cart-message">
                         <div className="empty-cart-content d-block mx-auto justify-content-center">
-                            <img className='pb-5' src="https://mir-s3-cdn-cf.behance.net/projects/404/95974e121862329.Y3JvcCw5MjIsNzIxLDAsMTM5.png" alt="Empty Cart Illustration"/>
+                            <img className='pb-5 w-50' src="https://mir-s3-cdn-cf.behance.net/projects/404/95974e121862329.Y3JvcCw5MjIsNzIxLDAsMTM5.png" alt="Empty Cart Illustration"/>
                             <h2>Your Cart is Empty</h2>
                             <p className='p-3'>Add items to your cart to see them here.</p>
                             <button className='btn btn-dark' onClick={() => setIsCartModalOpen(false)}>Start Shopping</button>
@@ -159,7 +159,7 @@ const EcommercePlatform = () => {
                     Place Order
                   </button>
                 </div>) : (
-                  <img src="https://static.wikia.nocookie.net/e7892774-ca83-4a92-9bd6-58f6704a2901" />
+                  <img style={{width:"100px",margin:"auto"}} src="https://static.wikia.nocookie.net/e7892774-ca83-4a92-9bd6-58f6704a2901" />
                 )}
               </div>
             </div>
